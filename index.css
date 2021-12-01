@@ -1,0 +1,326 @@
+@media screen and (max-width: 1160px) {
+    div.cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    div.nav{
+        width: 100%;
+    }
+
+    div.display img{
+        width: 100%;
+        object-fit: contain;
+    }
+
+    div.cards{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    div.item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    div.itema{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    div.info{
+        padding: 0;
+        margin-top: 0;
+    }
+
+    div.display2{
+        width: 100%;
+    }
+
+    div.display2 img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    div.cntctinfo{
+        flex-wrap: wrap;
+    }
+
+    p#cc{
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    div.ftr{
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    div.ftr{
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    div.ftr{
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    div.title{
+        display: none;
+    }
+
+    div.ftr{
+        width: 100%;
+        padding: 30px 10px 30px 30px;
+    }
+
+    div.itema img{
+        width: 90%;
+    }
+
+    div.hr1, div.hr2{
+        width: 40px;
+    }
+
+    div.hr11, div.hr22{
+        width: 40px;
+    }
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pp{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#motto{
+    margin: 0;
+    text-align: center;
+}
+
+#wicon{
+    width: 50px;
+}
+
+#wicon{
+    padding: 10px 0px 0px 15px;
+}
+
+#carticon{
+    width: 40px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.display{
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+}
+
+.imgs{
+    height: 600px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.imgs img{
+    width: 100%;
+}
+
+.ctxt{
+    display: flex;
+    margin-top: 230px;
+    width: 100%;
+    justify-content: center;
+}
+
+.wesell{
+    width: 150px;
+    text-align: center;
+}
+
+.wesell h2{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.hr1, .hr2{
+    padding: 30px;
+    width: 450px;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+}
+
+.cardz{
+    width: 350px;
+    height: 600px;
+    margin: 20px;
+}
+
+.cardz img{
+    width: 100%;
+    height: 450px;
+    transition: transform .5s ease-in-out;
+}
+
+.cardz img:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+
+button{
+    background: transparent;
+    color: white;
+    padding: 20px;
+    width: 150px;
+    border-color: transparent;
+    border: 1px solid white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.ctxt2{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.fp{
+    width: 300px;
+    text-align: center;
+}
+
+.fp h2{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.hr11, .hr22{
+    width: 400px;
+    padding: 30px;
+}
+
+.item{
+    display: flex;
+    width: 100%;
+}
+
+.itema{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.itema img{
+    width: 330px;
+    height: 450px;
+    padding-top: 50px;
+}
+
+.info{
+    margin: 70px 90px 90px 50px;
+    padding-top: 90px;
+}
+
+.display2{
+    width: 100%;
+}
+
+.display2 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform .5s ease-in-out;
+    opacity: 0.95;
+}
+
+.display2 img:hover{
+    transform: scale(1.02);
+}
+
+.cntctinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 15px 0px 20px 0px;
+    padding: 20px;
+    width: 250px;
+    height: 10px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+input::placeholder{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+#sub{
+    background-color: white;
+    color: black;
+}
+
+#sub:hover{
+    background-color: black;
+    color: white;
+}
+
+.ftr a{
+    color: white;
+    text-decoration: none;
+}
+
+#cc{
+    padding: 50px 0px 50px 100px;
+}
+
+.socials{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon{
+    width: 20px;
+    padding: 0px 20px 0px 0px;
+}

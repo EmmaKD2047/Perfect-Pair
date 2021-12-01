@@ -1,0 +1,5 @@
+<!--just telephone number-->
+https://wa.me/1XXXXXXXXXX
+
+<!--Telephone with message-->
+https://wa.me/1XXXXXXXXXX?text=I'm%20interested%20in%20your%20car%20for%20sale
