@@ -41,3 +41,13 @@ var indexValue = 0;
             opacity: 0,
             origin: 'bottom'
         })
+
+        ScrollReveal().reveal('.c', {
+          delay: 600,
+          distance: '50px',
+          duration: 600,
+          easing: 'cubic-bezier(0.5, 0, 0, 1)',
+          interval: 0,
+          opacity: 0,
+          origin: 'bottom'
+      })
